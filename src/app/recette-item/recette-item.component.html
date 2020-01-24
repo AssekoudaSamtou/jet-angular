@@ -1,0 +1,14 @@
+
+
+
+<a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#recette-modal-{{ recette.id }}">
+    <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+        <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">
+<!--            <i class="fa fa-search-plus fa-3x"></i>-->
+          <fa-icon [icon]="faSearch" class="fa-3x"></fa-icon>
+<!--            Nom : {{ recette.nom }}-->
+<!--            <a href (click)="test()">click</a>-->
+        </div>
+    </div>
+    <img class="img-fluid" src="{{ recette.photo }}"  alt="une recette"/>
+</a>

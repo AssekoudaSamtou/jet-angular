@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'jet-angular';
+export class AppComponent implements OnInit {
+  title = 'recette-angular';
+  scrollDistance;
+
+  ngOnInit(): void {
+
+  }
 }
